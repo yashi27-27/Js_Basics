@@ -1,23 +1,31 @@
-// Data Types
-// primitive or non primitive 
-var Name = "Yashi"
-Name = ""
-console.log(Name)
+//Arithmetic operators
+const specific_name ="Yashi"
+console.log(specific_name)
 
-let age = 19
-console.log(age)
+const a = 2
+const b = 15
+let c =0
 
-console.log(typeof age)
+console.log(a+b)
+console.log(a-b)
+console.log(a*b)
+console.log(a/b)
+console.log(a**b)
+console.log(b%a)
 
-let Xy = 'afjdskljffd;@'
-console.log(typeof Name)
+console.log('-----------------')
+// Increment operator.
+c += 1
+console.log(c)
 
-let brand
-console.log(brand)
+c++
+console.log(c)
 
-//Non primitves 
+c*=5
+console.log(c)
 
-let arr = [1,2,3,4,5]
-arr.push("yashi")
-console.log(arr)
-console.log( typeof arr)
+c/=5
+console.log(c)
+
+c**=3
+console.log(c)
