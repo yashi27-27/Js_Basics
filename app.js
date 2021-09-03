@@ -1,22 +1,30 @@
-//comparator operators
-const a =21
-const b = 7
-const c = 21
+//Logical OPerators 
+const a = 10
+const b = 50
+const c = 35
 
-console.log(a>b)
-console.log(a<b)
-console.log(a==b)
-console.log(a==c)
-console.log(a>=c)
-//== 
-const e = 11
-const d = '11'
-console.log(e==d)
+console.log(c>a&&c<b)
+/*
+console.log('a==b',a==b)
+console.log('a!=b',a!=b)
 
-//=== compares first by == then compare types by and
+//Logical And 
 
-const g =32
-const f='32'
+console.log('Truth table for AND')
+console.log('')
 
-console.log(g===f)
+console.log('false && false', false && false)
+console.log('true && true', true && true)
+console.log('true && false', true && false)
+console.log('false && true', false && true)
+console.log('')
 
+console.log('Truth table for OR')
+console.log('')
+
+console.log('false|| false', false || false)
+console.log('true|| true', true || true)
+console.log('true|| false', true || false)
+console.log('false|| true', false || true)
+
+*/
