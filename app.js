@@ -1,18 +1,21 @@
-const element = document.querySelector('#selectme')
-// element.innerHTML = "This is from JS"
+const rock = document.querySelector('#rock')
+const paper = document.querySelector('#paper')
+const scissor = document.querySelector('#scissor')
+/* creating function 
+function logName(){
+    console.log('Yashi)
+}
+calling:
+logName()
+*/
+function logName(Name = "John Doe"){
+    console.log(Name)
+}
+logName()
 
-// element.style.color = "cyan"
-// element.style.fontSize = "40px"
-// element.style = 'display:none'
-
-// console.log(element.classList)
-// element.classList.add('five')
-// console.log(element.classList)
-// element.classList.remove('one')
-// console.log(element.classList)
-
-//const body = document.querySelector('body')
-//console.log(body.classList.toggle('dark'))
-
-const value = element.classList.contains('one')
-console.log(value)
+function add(a=0,b=0){
+    const sum = a+b
+     return sum
+}
+const result = add(12,99)
+console.log(result)
